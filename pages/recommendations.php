@@ -23,7 +23,7 @@ include_once BASE_PATH . '/includes/header.php';
                     
                     <div class="p-4 flex flex-col">
                         <h3 class="text-xl font-semibold mb-2"><?php echo htmlspecialchars($book['title']); ?></h3>
-                        <p class="text-gray-600 mb-2"><?php echo htmlspecialchars($book['author']); ?></p>
+                        <p class="text-gray-600 mb-2"><i>By: <?php echo htmlspecialchars($book['author']); ?></i></p>
                         <div class="flex flex-wrap gap-2 mt-auto">
                             <span class="bg-gray-200 text-gray-800 py-1 px-3 rounded-full text-sm"><?php echo htmlspecialchars($book['tag']); ?></span>
                         </div>

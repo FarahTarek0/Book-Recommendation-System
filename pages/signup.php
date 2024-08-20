@@ -40,16 +40,16 @@ include_once BASE_PATH . '/includes/header.php';
                     <span class="text">Science</span>
                 </label>
                 <label class="tag-button cursor-pointer">
-                    <input type="checkbox" name="tags[]" value="Science Fiction" class="hidden">
-                    <span class="text">Science Fiction</span>
+                    <input type="checkbox" name="tags[]" value="Medical" class="hidden">
+                    <span class="text">Medical</span>
                 </label>
                 <label class="tag-button cursor-pointer">
-                    <input type="checkbox" name="tags[]" value="Romance" class="hidden">
-                    <span class="text">Romance</span>
+                    <input type="checkbox" name="tags[]" value="Religion" class="hidden">
+                    <span class="text">Religion</span>
                 </label>
                 <label class="tag-button cursor-pointer">
-                    <input type="checkbox" name="tags[]" value="Fantasy" class="hidden">
-                    <span class="text">Fantasy</span>
+                    <input type="checkbox" name="tags[]" value="Litrature" class="hidden">
+                    <span class="text">Litrature</span>
                 </label>
                 <!-- Add more tags as needed -->
             </div>
